@@ -11,22 +11,22 @@ net.virtualvoid.sbt.graph.Plugin.graphSettings
 // | Comment this line if error "Skipping update requested, but update has not previously run successfully."
 // skip in update := true
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % "1.2.0" withSources() withJavadoc()
+libraryDependencies += "org.apache.spark" %% "spark-core" % "1.3.0" withSources() withJavadoc()
 
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.2.0" withSources() withJavadoc()
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.3.0" withSources() withJavadoc()
 
-libraryDependencies += "org.apache.spark" %% "spark-hive" % "1.2.0" withSources() withJavadoc()
+libraryDependencies += "org.apache.spark" %% "spark-hive" % "1.3.0" withSources() withJavadoc()
 
 
 // | Before bundling the project for a spark-submit, comment the spark-* dependencies above
 // | and uncomment the dependencies below. It prevents sbt-assembly from bundling the JARs already provided
 // | by the Spark cluster.
 
-// libraryDependencies += "org.apache.spark" %% "spark-core" % "1.2.0" % "provided"
+// libraryDependencies += "org.apache.spark" %% "spark-core" % "1.3.0" % "provided"
 //
-// libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.2.0" % "provided"
+// libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.3.0" % "provided"
 //
-// libraryDependencies += "org.apache.spark" %% "spark-hive" % "1.2.0" % "provided"
+// libraryDependencies += "org.apache.spark" %% "spark-hive" % "1.3.0" % "provided"
 
 
 // | Extra libraries

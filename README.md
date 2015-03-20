@@ -17,8 +17,8 @@
   * *Use auto-import*
   * *Download sources and docs*
 * Choose a Project SDK with a version >= 1.7.
-* Move the `Main` and `Schema` to your package name
-* Right-click on the `Main` and click `Run Main`
+* Move the `Main` and `Schema` classes to your package name
+* Right-click on the `Main` class and click `Run Main`
 
 # Build and run your Spark job on a Spark cluster
 

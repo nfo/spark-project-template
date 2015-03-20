@@ -1,6 +1,6 @@
 package io.basilic.myproject
 
-import org.apache.spark.sql.catalyst.types._
+import org.apache.spark.sql.types._
 
 import scala.collection.mutable.ArrayBuffer
 
